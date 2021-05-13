@@ -26,4 +26,4 @@ jobs:
     - name: Build
       run: dotnet build --no-restore ./SuperMarket.API
     - name: Test
-      run: dotnet test --no-build --verbosity normal ./SuperMarket.API.Test
+      run: dotnet test --no-build --verbosity normal ./SuperMarket.Api.Test
