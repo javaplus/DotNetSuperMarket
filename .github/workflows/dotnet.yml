@@ -19,6 +19,8 @@ jobs:
         dotnet-version: 5.0.x
     - name: List STuff
       run: ls
+    - name: dotNet help
+      run: dotNet -h
     - name: Restore dependencies
       run: ./SuperMarket.API/dotnet restore
     - name: Build
