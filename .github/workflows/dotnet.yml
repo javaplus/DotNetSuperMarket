@@ -20,7 +20,7 @@ jobs:
     - name: List STuff
       run: ls
     - name: dotnet help
-      run: dotNet -h
+      run: dotnet -h
     - name: Restore dependencies
       run: ./SuperMarket.API/dotnet restore
     - name: Build
