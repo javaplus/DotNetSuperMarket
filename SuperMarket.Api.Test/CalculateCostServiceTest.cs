@@ -3,7 +3,7 @@ using NUnit.Framework;
 using SuperMarket.API.Domain.Services;
 namespace Tests
 {
-    public class Tests
+    public class CalculateCostServiceTest
     {
         [SetUp]
         public void Setup()
@@ -11,7 +11,7 @@ namespace Tests
         }
 
         [Test]
-        public void Test1()
+        public void CalculatCostService_1Plus2Returns3()
         {
             
             //Category cat = new Category();
